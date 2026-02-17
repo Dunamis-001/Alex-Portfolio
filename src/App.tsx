@@ -1,17 +1,10 @@
-import { useState, useEffect } from 'react';
-import { projects, skills } from './data/portfolio';
+import { useState } from 'react';
+import { projects } from './data/portfolio';
 import profilePhoto from './assets/profile-photo.png';
 
 function App() {
   const [activeProject, setActiveProject] = useState<string | null>(null);
   const [showPortfolio, setShowPortfolio] = useState(false);
-  const [scrollY, setScrollY] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => setScrollY(window.scrollY);
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
 
   const scrollToSection = (id: string) => {
     setShowPortfolio(true);
