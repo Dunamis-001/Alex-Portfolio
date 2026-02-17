@@ -2,6 +2,8 @@
 
 Digital Strategy & Brand Growth Portfolio
 
+Deployed on Vercel
+
 ## About
 
 This is the professional portfolio website for Alex 'Dunamis' Nyamai, showcasing expertise in digital strategy, brand growth, media leadership, and software development.
