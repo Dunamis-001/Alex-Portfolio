@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { projects } from './data/portfolio';
-import profilePhoto from './assets/profile-photo.png';
+import profilePhoto from './assets/profile-photo-new.png';
 
 function App() {
   const [activeProject, setActiveProject] = useState<string | null>(null);
