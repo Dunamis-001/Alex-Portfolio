@@ -43,7 +43,7 @@ function App() {
                 Hi <span className="text-gold">Nairobi Litfest</span>!
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-4 md:mb-6 leading-relaxed max-w-2xl mx-auto md:mx-0 px-2 md:px-0">
-                My name is <strong className="text-gold">Alex Dunamis</strong>, a Digital Strategist and Media Lead with extensive experience managing social media presence, planning content, and engaging audiences across platforms. I'm excited about the opportunity to bring the energy of Nairobi Litfest online and grow your festival's digital community.
+                My name is <strong className="text-gold">Alex Nyamai</strong>, a Digital Strategist, Media Lead, and recently qualified Software Developer with extensive experience managing social media presence, planning content, and engaging audiences across platforms. I'm excited about the opportunity to bring the energy of Nairobi Litfest online and grow your festival's digital community.
               </p>
               <p className="text-base sm:text-lg md:text-xl text-gray-300 mb-6 md:mb-8 leading-relaxed max-w-2xl mx-auto md:mx-0 italic px-2 md:px-0">
                 To see my track record in social media coordination and content execution, click below.
@@ -80,7 +80,7 @@ function App() {
               <div className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-gold shadow-2xl group">
                 <img 
                   src={profilePhoto} 
-                  alt="Alex 'Dunamis' Nyamai" 
+                  alt="Alex Nyamai" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 border-2 border-gold/20 rounded-full"></div>
@@ -93,7 +93,7 @@ function App() {
               <div className="relative w-48 h-48 rounded-full overflow-hidden border-4 border-gold shadow-2xl mx-auto mb-8 group">
                 <img 
                   src={profilePhoto} 
-                  alt="Alex 'Dunamis' Nyamai" 
+                  alt="Alex Nyamai" 
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 border-2 border-gold/20 rounded-full"></div>
@@ -325,28 +325,24 @@ function App() {
         
           <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-5xl text-center relative z-10 transition-all duration-1000 delay-500 opacity-100 translate-y-0">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 pb-3 md:pb-4 border-b-2 border-gold inline-block px-4">
-            Ready to Bring Nairobi Litfest Online
+            Let's Discuss Your Next Digital Growth Strategy
           </h2>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-6 md:mb-8 max-w-3xl mx-auto leading-relaxed px-4">
-            I'm excited about the opportunity to manage Nairobi Litfest's social media presence and help grow your festival's digital community during the April–June project period.
-          </p>
-          <p className="text-base md:text-lg text-gray-400 mb-8 md:mb-10 max-w-2xl mx-auto leading-relaxed px-4">
-            <strong className="text-gold">Nairobi | Flexible Hours | Project Contract: April – June</strong>
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 md:mb-10 max-w-3xl mx-auto leading-relaxed px-4">
+            Ready to transform your digital presence and turn your online channels into a powerful engagement engine?
           </p>
           <a 
-            href="mailto:comms@bookbunk.org?subject=Social Media Coordinator Application - Alex Dunamis&body=Dear Nairobi Litfest Team,%0D%0A%0D%0AI am writing to express my interest in the Social Media Coordinator position for Nairobi Litfest.%0D%0A%0D%0APlease find attached my CV and portfolio showcasing my experience in social media management, content planning, and audience engagement.%0D%0A%0D%0ALooking forward to discussing how I can help bring the energy of Nairobi Litfest online.%0D%0A%0D%0ABest regards,%0D%0AAlex 'Dunamis' Nyamai" 
+            href="https://wa.me/254717776105?text=Hi%20Alex,%20I'm%20interested%20in%20discussing%20digital%20strategy%20and%20social%20media%20coordination." 
+            target="_blank"
+            rel="noopener noreferrer"
             className="relative inline-block bg-gold text-charcoal px-8 py-4 md:px-14 md:py-6 font-bold tracking-widest uppercase hover:bg-gold/95 transition-all duration-500 shadow-2xl hover:shadow-[0_25px_50px_-12px_rgba(198,167,94,0.5)] transform hover:-translate-y-2 text-sm md:text-base overflow-hidden group w-full sm:w-auto"
             style={{
               letterSpacing: '0.15em',
               boxShadow: '0 20px 25px -5px rgba(198, 167, 94, 0.4), 0 10px 10px -5px rgba(198, 167, 94, 0.2)'
             }}
           >
-            <span className="relative z-10">Apply Now</span>
+            <span className="relative z-10">Get In Touch</span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
           </a>
-          <p className="text-sm md:text-base text-gray-400 mt-6 max-w-xl mx-auto px-4">
-            Send CV, portfolio or links to previous campaigns, and a brief cover letter to <strong className="text-gold">comms@bookbunk.org</strong> (rolling basis)
-          </p>
           </div>
         </section>
       )}
@@ -356,7 +352,7 @@ function App() {
         <footer className="bg-charcoal text-white py-10 transition-all duration-1000">
         <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-7xl text-center">
           <p className="text-gray-400 text-sm tracking-wide">
-            © {new Date().getFullYear()} Alex 'Dunamis' Nyamai. All rights reserved.
+            © {new Date().getFullYear()} Alex Nyamai. All rights reserved.
           </p>
         </div>
       </footer>
