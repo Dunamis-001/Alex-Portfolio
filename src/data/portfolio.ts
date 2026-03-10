@@ -51,9 +51,7 @@ export const projects: Project[] = [
     period: '2024-2025',
     roles: ['Digital Strategy', 'Brand Management', 'Content Systems', 'Live Streaming'],
     description: 'Developed brand positioning strategy and implemented structured digital rollout systems. Led content creation, content distribution architecture, and live-stream infrastructure.',
-    links: [
-      { label: 'Video Content Drive', url: 'https://drive.google.com/drive/folders/1MXkdCa_Al7dlGNn5TxWqPEzY3KhyzDFy?usp=sharing' }
-    ]
+    links: []
   },
   {
     id: 'kingdom-commonwealth',
@@ -61,9 +59,7 @@ export const projects: Project[] = [
     period: '2024-2025',
     roles: ['Digital Strategy', 'Media Coordination'],
     description: 'Oversaw digital positioning, messaging alignment, and coordinated media systems to ensure consistent brand communication.',
-    links: [
-      { label: 'Video Content Drive', url: 'https://drive.google.com/drive/folders/1-do7lZGCfn6Rs1wfWop73N9ikQUaFsCw?usp=drive_link' }
-    ]
+    links: []
   },
   {
     id: 'ruach-assemblies',
@@ -72,7 +68,6 @@ export const projects: Project[] = [
     roles: ['Brand Owner', 'Digital Strategy', 'Media Systems Coordination'],
     description: 'Led platform growth strategy, content management systems, and production oversight across digital channels.',
     links: [
-      { label: 'Video Content Drive', url: 'https://drive.google.com/drive/folders/1BxEbkNuZQnrKjPdVq4v-J-W6_IIpCq88?usp=drive_link' },
       { label: 'YouTube', url: 'https://www.youtube.com/@ruachassemblies' },
       { label: 'Instagram', url: 'https://www.instagram.com/ruachassemblies?igsh=MTJ1NWozeXI1cXVuNQ==' }
     ]
