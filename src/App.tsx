@@ -197,144 +197,15 @@ function App() {
         <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent transition-all duration-1000"></div>
       )}
 
-      {/* Bringing Festival Energy Online */}
+      {/* Footer */}
       {showPortfolio && (
-        <section className="py-20 md:py-28 bg-off-white transition-all duration-1000">
-          <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-7xl transition-all duration-1000 delay-300 opacity-100 translate-y-0">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal mb-6 md:mb-10 pb-4 md:pb-6 border-b-2 border-gold inline-block">
-              Bringing Festival Energy Online
-            </h2>
-            
-            {/* Social Media Coordination Value Cards */}
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-10 md:mb-14">
-              {/* Social Media Presence Management */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  📱
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Manage & Grow Social Media Presence
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Strategic management across platforms to build a vibrant, engaged community around Nairobi Litfest. Focus on consistent growth, authentic engagement, and platform-specific optimization.
-                </p>
-              </div>
-
-              {/* Content Planning & Execution */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  📝
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Plan & Execute Content
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Structured content calendars and execution systems that showcase festival highlights, author spotlights, event announcements, and behind-the-scenes moments that capture the essence of Nairobi Litfest.
-                </p>
-              </div>
-
-              {/* Audience Engagement */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  💬
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Engage Audiences
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Active community management that responds to comments, sparks conversations, builds anticipation, and creates a sense of belonging among festival attendees and literary enthusiasts.
-                </p>
-              </div>
-
-              {/* Festival Energy Online */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  ✨
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Bring Festival Energy Online
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Capture and amplify the excitement, intellectual discourse, and cultural significance of Nairobi Litfest through dynamic content that makes the festival accessible to both attendees and remote audiences.
-                </p>
-              </div>
-
-              {/* Multi-Platform Coordination */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  🔄
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Multi-Platform Coordination
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Unified strategy across Instagram, Twitter, Facebook, TikTok, and other platforms, ensuring consistent messaging while leveraging each platform's unique strengths and audience behaviors.
-                </p>
-              </div>
-
-              {/* Event Coverage & Live Content */}
-              <div className="bg-white p-8 md:p-10 border-2 border-gray-200 hover:border-gold hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 group relative overflow-hidden">
-                <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                <div className="text-5xl md:text-6xl mb-4 text-gold group-hover:scale-110 transition-transform duration-300">
-                  🎥
-                </div>
-                <h3 className="text-xl md:text-2xl font-bold text-charcoal mb-3 leading-tight">
-                  Event Coverage & Live Content
-                </h3>
-                <p className="text-gray-600 text-sm md:text-base leading-relaxed">
-                  Real-time coverage during festival events, live updates, session highlights, author interviews, and engaging content that brings the live experience to social media audiences.
-                </p>
-              </div>
-            </div>
-
-            {/* Strategic Impact Paragraph */}
-            <div className="bg-gradient-to-br from-white to-off-white p-8 md:p-10 lg:p-12 border-2 border-gold/20 shadow-lg">
-              <div className="max-w-4xl mx-auto">
-                <h3 className="text-2xl md:text-3xl font-bold text-charcoal mb-5 md:mb-6 text-center">
-                  From Social Media Strategy to Engaged Literary Community
-                </h3>
-                <p className="text-base md:text-lg lg:text-xl text-gray-700 leading-relaxed text-center">
-                  Every post, story, and interaction is strategically designed to build anticipation, showcase the intellectual richness of Nairobi Litfest, and create a vibrant online community. By combining thoughtful content planning with authentic engagement and multi-platform coordination, social media becomes a powerful tool that extends the festival's reach, amplifies its impact, and brings the energy of live events to digital audiences. The result: <strong className="text-charcoal">increased visibility, engaged community, and a digital presence that reflects the festival's cultural significance</strong>.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Divider */}
-      {showPortfolio && (
-        <div className="h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent transition-all duration-1000 delay-500"></div>
-      )}
-
-      {/* Final CTA Section */}
-      {showPortfolio && (
-        <section className="py-20 md:py-32 bg-navy text-white relative overflow-hidden transition-all duration-1000">
-        {/* Subtle animated background */}
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute top-0 left-0 w-full h-full" style={{
-            backgroundImage: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(198, 167, 94, 0.1) 10px, rgba(198, 167, 94, 0.1) 20px)',
-            animation: 'slide 20s linear infinite'
-          }}></div>
-        </div>
-        
-          <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-5xl text-center relative z-10 transition-all duration-1000 delay-500 opacity-100 translate-y-0">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 pb-3 md:pb-4 border-b-2 border-gold inline-block px-4">
-            Let's Discuss Your Next Digital Growth Strategy
-          </h2>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 md:mb-10 max-w-3xl mx-auto leading-relaxed px-4">
-            Ready to transform your digital presence and turn your online channels into a powerful engagement engine?
-          </p>
+        <footer className="bg-charcoal text-white py-10 transition-all duration-1000">
+        <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-7xl text-center">
           <a 
             href="https://wa.me/254717776105?text=Hi%20Alex,%20I'm%20interested%20in%20discussing%20digital%20strategy%20and%20social%20media%20coordination." 
             target="_blank"
             rel="noopener noreferrer"
-            className="relative inline-block bg-gold text-charcoal px-8 py-4 md:px-14 md:py-6 font-bold tracking-widest uppercase hover:bg-gold/95 transition-all duration-500 shadow-2xl hover:shadow-[0_25px_50px_-12px_rgba(198,167,94,0.5)] transform hover:-translate-y-2 text-sm md:text-base overflow-hidden group w-full sm:w-auto"
+            className="relative inline-block bg-gold text-charcoal px-8 py-4 md:px-14 md:py-6 font-bold tracking-widest uppercase hover:bg-gold/95 transition-all duration-500 shadow-2xl hover:shadow-[0_25px_50px_-12px_rgba(198,167,94,0.5)] transform hover:-translate-y-2 text-sm md:text-base overflow-hidden group"
             style={{
               letterSpacing: '0.15em',
               boxShadow: '0 20px 25px -5px rgba(198, 167, 94, 0.4), 0 10px 10px -5px rgba(198, 167, 94, 0.2)'
@@ -343,17 +214,6 @@ function App() {
             <span className="relative z-10">Get In Touch</span>
             <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
           </a>
-          </div>
-        </section>
-      )}
-
-      {/* Footer */}
-      {showPortfolio && (
-        <footer className="bg-charcoal text-white py-10 transition-all duration-1000">
-        <div className="container mx-auto px-6 md:px-12 lg:px-16 max-w-7xl text-center">
-          <p className="text-gray-400 text-sm tracking-wide">
-            © {new Date().getFullYear()} Alex Nyamai. All rights reserved.
-          </p>
         </div>
       </footer>
       )}
